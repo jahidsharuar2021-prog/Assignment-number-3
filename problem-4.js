@@ -8,7 +8,7 @@ function gonoVote(array) {
         if(item=='ha'){
             hacount++;
         }
-        else{
+        else if(item=='na'){
             nacount++;
         }
       }
